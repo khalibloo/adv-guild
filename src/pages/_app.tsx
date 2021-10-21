@@ -7,6 +7,7 @@ import config from "@/utils/config";
 import init from "@/utils/init";
 
 import "@/styles/global.css";
+
 require("@/styles/global.less");
 
 const queryClient = new QueryClient();

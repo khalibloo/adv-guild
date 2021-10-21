@@ -1,9 +1,12 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "airbnb-typescript",
-    "airbnb/hooks",
-    "prettier",
-    "prettier/react"
-  ]
+  "extends": ["next/core-web-vitals", "airbnb", "airbnb-typescript", "airbnb/hooks", "prettier"],
+  "rules": {
+    "react/react-in-jsx-scope": 0,
+    "arrow-body-style": 0,
+    "react/no-unescaped-entities": 0,
+    "react/jsx-props-no-spreading": 0
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
 }

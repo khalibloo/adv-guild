@@ -21,7 +21,7 @@ const NotFoundPage: NextPage = () => {
             visited an invalid link.
           </Typography.Paragraph>
           <Row justify="space-around" align="middle" style={{ marginTop: "50px" }}>
-            <Link href="/">
+            <Link href="/" passHref>
               <Button type="primary">Go Back To Home</Button>
             </Link>
           </Row>
