@@ -1,0 +1,13 @@
+@import "./tailwind.css";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: unset !important;
+}
+
+/* important: override tailwind svg vertical align. it messes with antd icon placement */
+svg {
+  vertical-align: unset;
+}
