@@ -22,6 +22,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <QueryClientProvider client={queryClient}>
       <Head>
+        <html lang="en" />
         <meta name="application-name" content="Adventurers Guild" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
